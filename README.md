@@ -2,6 +2,9 @@
 
 A machine learning based movie recommendation system that suggests movies based on similarity algorithms.
 
+## Live API
+https://movie-recommendation-system-v068.onrender.com/docs
+
 ## Features
 - Content-based movie recommendation
 - Uses cosine similarity
