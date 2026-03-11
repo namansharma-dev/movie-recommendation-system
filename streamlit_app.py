@@ -31,16 +31,8 @@ img:hover {
 
 st.markdown("<h1 style='margin-bottom:30px;'>🎬 Movie Recommender</h1>", unsafe_allow_html=True)
 
-.stButton button {
-    background-color: #E50914;
-    color: white;
-    border-radius: 8px;
-}
-</style>
-""", unsafe_allow_html=True)
-
 # ---------- TITLE ----------
-st.markdown("<h1>NETFLIX AI RECOMMENDER</h1>", unsafe_allow_html=True)
+st.markdown("<h1>MOVIE RECOMMENDER</h1>", unsafe_allow_html=True)
 
 st.write("")
 
@@ -109,6 +101,7 @@ if st.button("Recommend"):
     else:
 
         st.error("Movie not found")
+
 
 
 
