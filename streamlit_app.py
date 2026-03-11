@@ -21,10 +21,18 @@ h1 {
 img {
     border-radius: 10px;
 }
+
 img:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
+
+.stButton button {
+    background-color: #E50914;
+    color: white;
+    border-radius: 8px;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -108,3 +116,4 @@ if st.button("Recommend"):
     else:
 
         st.error("Movie not found")
+
