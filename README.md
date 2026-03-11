@@ -3,7 +3,7 @@
 A machine learning based movie recommendation system that suggests movies based on similarity algorithms.
 
 ## Live API
-https://movie-recommendation-system-v068.onrender.com/docs
+[https://movie-recommendation-system-v068.onrender.com/docs](https://movie-recommendation-system-2xcwd7pkotcttotthezcmo.streamlit.app)
 
 ## Features
 - Content-based movie recommendation
