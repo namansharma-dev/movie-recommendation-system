@@ -5,9 +5,9 @@ API = "https://movie-recommendation-system-v068.onrender.com"
 
 st.set_page_config(page_title="Movie Recommender", layout="wide")
 
-# ---------- NETFLIX STYLE ----------
 st.markdown("""
 <style>
+
 .stApp {
     background-color: #0b0b0b;
     color: white;
@@ -116,5 +116,6 @@ if st.button("Recommend"):
     else:
 
         st.error("Movie not found")
+
 
 
