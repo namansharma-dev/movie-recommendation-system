@@ -3,7 +3,7 @@ import requests
 
 API = "https://movie-recommendation-system-v068.onrender.com"
 
-st.set_page_config(page_title="Netflix AI Recommender", layout="wide")
+st.set_page_config(page_title="Movie Recommender", layout="wide")
 
 # ---------- NETFLIX STYLE ----------
 st.markdown("""
@@ -21,6 +21,14 @@ h1 {
 img {
     border-radius: 10px;
 }
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("<h1 style='margin-bottom:30px;'>🎬 Movie Recommender</h1>", unsafe_allow_html=True)
 
 .stButton button {
     background-color: #E50914;
@@ -98,4 +106,5 @@ if st.button("Recommend"):
                     st.caption(r["title"])
 
     else:
+
         st.error("Movie not found")
