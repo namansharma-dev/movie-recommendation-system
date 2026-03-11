@@ -28,9 +28,7 @@ img:hover {
 
 </style>
 """, unsafe_allow_html=True)
-
-st.markdown("<h1 style='margin-bottom:30px;'>🎬 Movie Recommender</h1>", unsafe_allow_html=True)
-
+st.markdown("<h1 style='margin-bottom:30px; color:#E50914;'>🎬 Movie Recommender</h1>", unsafe_allow_html=True)
 st.write("")
 
 # ---------- TRENDING MOVIES ----------
@@ -98,6 +96,7 @@ if st.button("Recommend"):
     else:
 
         st.error("Movie not found")
+
 
 
 
