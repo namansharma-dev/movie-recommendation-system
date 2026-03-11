@@ -27,7 +27,7 @@ img:hover {
     transition: 0.3s;
 }
 
-.stButton button {
+.stButton > button {
     background-color: #E50914;
     color: white;
     border-radius: 8px;
@@ -116,4 +116,5 @@ if st.button("Recommend"):
     else:
 
         st.error("Movie not found")
+
 
