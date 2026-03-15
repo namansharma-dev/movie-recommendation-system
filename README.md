@@ -3,7 +3,7 @@
 A machine learning based movie recommendation system that suggests movies based on similarity algorithms.
 
 ## Live API
-https://flight-price-prediction-y2t1.onrender.com/
+https://movie-recommendation-system-2xcwd7pkotcttotthezcmo.streamlit.app/
 
 ## Features
 - Content-based movie recommendation
